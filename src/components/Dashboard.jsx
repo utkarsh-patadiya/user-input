@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Dashboard = ({ userData }) => {
-  const { email, name, username, age, password } = userData;
+  const { email, name, username, age } = userData;
 
   return (
     <div>
@@ -10,7 +10,6 @@ const Dashboard = ({ userData }) => {
       <p>Name: {name}</p>
       <p>Username: {username}</p>
       <p>Age: {age}</p>
-      <p>Password: {password}</p>
     </div>
   );
 };
